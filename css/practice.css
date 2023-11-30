@@ -1,0 +1,242 @@
+@charset "utf-8";
+
+html,body{
+    font-family:"맑은고딕";
+    font-size:16px;
+    color:#333333;
+    background-color:white;
+}
+a{
+    color:#666666;
+    text-decoration:none;
+}
+a:hover{
+    color:black;
+}
+img{
+    vertical-align:middle;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+table,th,td{
+    border:1px solid black;
+    border-collapse:collapse;
+}
+
+
+
+
+main{
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+    /* border:1px solid black; */
+}
+header{
+    width:100%;
+    height:100px;
+    /* border:1px solid black; */
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-between;
+}
+h1{
+    width:17%;
+    height:100%;
+    max-width:200px;
+    /* border:1px solid black; */
+    padding-top:20px;
+}
+nav{
+    width:50%;
+    border:1px solid black;
+    display:flex;
+    margin-right:20px;
+}
+.menu-group{
+    width:25%;
+    border:1px solid black;
+    text-align:center;
+    position:relative;
+}
+.menu-group>a{
+    width:100%;
+    padding:10px;
+    display:inline-block;
+    font-size:1.1rem;
+    font-weight:600;
+}
+.menu-group:hover>a{
+    background-color:pink;
+    color:white;
+}
+.drop{
+    border:1px solid black;
+    width:100%;
+    height:150px;
+    position:absolute;
+    top:100%;
+    left:0;
+    background-color:lavenderblush;
+    display:none;
+}
+.drop>a{
+    display:inline-block;
+    width:100%;
+    padding:5px;
+    background-color:lavenderblush;
+    font-size:1rem;
+    font-weight:600;
+}
+.drop>a:hover{
+    background-color:lavender;
+    color:white;
+}
+
+#section{
+    width:100%;
+    height:500px;
+}
+.slide-group{
+    width:100%;
+    height:300px;
+    overflow:hidden;
+}
+.slide-wrap{
+    width:400%;
+    display:flex;
+}
+.slide{
+    width:25%;
+    /* border:1px solid black; */
+}
+.slide img{
+    width:100%;
+}
+.section-c-group{
+    width:100%;
+    height:200px;
+    /* border:1px solid black; */
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.notice,
+.gallery,
+.shortcut{
+    width:33.33%;
+    /* border:1px solid black; */
+}
+.notice-list a{
+    border:1px solid black;
+    padding:10px;
+    display:inline-block;
+    margin-left:5px;
+    border-bottom:1px solid white;
+}
+.notice-text{
+    width:98%;
+    border:1px solid black;
+    margin-top:-1px;
+    height:145px;
+}
+.notice-text ul{
+    list-style-type:none;
+}
+.notice-text li{
+    padding:7px;
+}
+.notice-text li:nth-child(even){
+    background-color:pink;
+    color:white;
+}
+.gallery-list a{
+    display:inline-block;
+    padding:10px;
+    border:1px solid black;
+    background-color:gray;
+    margin-left:5px;
+}
+.gallery-image{
+    width:98%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    border:1px solid black;
+    height:145px;
+    margin-top:-1px;
+}
+.picture{
+    width:120px;
+    height:120px;
+    /* border:1px solid black; */
+    overflow:hidden;
+}
+.picture>a>img{
+    width:100%;
+}
+.shortcut-image{
+    width:90%;
+    margin:auto;
+    height:100%;
+    padding-top:7px;
+    /* border:1px solid black; */
+}
+.shortcut img{
+    width:100%;
+}
+
+footer{
+    width:100%;
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:lavenderblush;
+}
+.copyright{
+    /* border:1px solid black; */
+    width:80%;
+    height:100%;
+    text-align:center;
+    padding-top:50px;
+}
+.footer-right{
+    width:20%;
+    height:100%;
+    /* border:1px solid black; */
+}
+.sns{
+    width:100%;
+    height:50%;
+    /* border:1px solid black; */
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding-top:20px;
+}
+.sns a{
+    display:inline-block;
+    width:50px;
+    height:50px;
+}
+.sns img{
+    width:100%;
+}
+.family{
+    width:100%;
+    height:50%;
+    /* border:1px solid black; */
+    display:flex;
+    justify-content:Center;
+    align-items:flex-start;
+    padding-top:20px;
+    font-size:0.7rem;
+}
+.family a{
+    display:inline-block;
+    width:33.33%;
+}
